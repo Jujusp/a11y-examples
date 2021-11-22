@@ -10,16 +10,16 @@
   <body>
     <main>
       <h1>Navigation & Tabs</h1>
-      <div class="container">
-        <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
-          <div onclick="printMessage()" class="button">Submit</div>
-        </form>
-        <img src="../assets/images/dog.jpeg" />
-      </div>
+      <article class="container">
+        <form>
+          <label for="fname">First Name:</label>
+          <input name="fname" id="fname" type="text"></input>
+          <label for="lname">Last Name:</label>
+          <input name="lname" id="lname" type="text"></input>
+          <button onclick="printMessage()" type="submit" class="button">Submit</button>
+          <img role="presentation" alt="Imagen de golden retriever cachorro" src="../assets/images/dog.jpeg" />
+        </form> 
+      </article>
     </main>
     <script src="./index.js"></script>
   </body>

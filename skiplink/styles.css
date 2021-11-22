@@ -35,3 +35,28 @@ header ul li a {
 header ul li a:hover {
   border-bottom: 1px solid #333;
 }
+
+a.skip-main:focus, a.skip-main:active {
+  color: #fff;
+  background-color:#000;
+  left: auto;
+  top: auto;
+  width: 10%;
+  height: auto;
+  overflow:auto;
+  margin: 10px 35%;
+  padding:5px;
+  border-radius: 15px;
+  text-align:center;
+  font-size:1.2em;
+  z-index:999;
+}
+
+a.skip-main {
+  left:-999px;
+  position:absolute;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:-999;
+}
